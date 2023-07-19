@@ -18,7 +18,7 @@ if Hitung_luas_segitiga:
     luas_segitiga= 1/2 * panjang * lebar
     st.success(f'Hasil luas segitiga adalah:{luas_segitiga}cm²')
 
-st.write('# i like sego goreng <>')
+st.write('# i like sego goreng and mango')
 st.write('what 9+10')
 one= st.button('21')
 nine= st.button('19')
