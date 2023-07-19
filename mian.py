@@ -18,3 +18,4 @@ if Hitung_luas_segitiga:
     luas_segitiga= 1/2 * panjang * lebar
     st.success(f'Hasil luas segitiga adalah:{luas_segitiga}')
 
+print('dengan ini')
