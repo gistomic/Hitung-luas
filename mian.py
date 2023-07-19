@@ -4,9 +4,9 @@ st.write('caranya masukan nomer yang ingin di hitung luasnya lalu tekan pilihany
 
 panjang= st.number_input('Masukan Panjangnya', 0)
 lebar= st.number_input('Masukan Lebarnya', 0)
-Hitung_persegi= st.button('Hasil luas persegi')
-Hitung_keliling_persegi= st.button('Hasil keliling pesegi')
-Hitung_luas_segitiga= st.button('Hasil luas segitiga')
+Hitung_persegi= st.button('Hitung luas persegi')
+Hitung_keliling_persegi= st.button('Hitung keliling pesegi')
+Hitung_luas_segitiga= st.button('Hitung luas segitiga')
 
 if Hitung_persegi:
     luas_persegi = panjang * lebar
