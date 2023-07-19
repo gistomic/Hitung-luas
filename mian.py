@@ -1,6 +1,6 @@
 import streamlit as st
 st.write('# Menghitung luas hehe')
-st.write('by minum')
+st.write('caranya masukan nomer yang ingin di hitung luasnya lalu tekan pilihanya untuk memperlihatkan hasilnya')
 
 panjang= st.number_input('Masukan Panjangnya', 0)
 lebar= st.number_input('Masukan Lebarnya', 0)
@@ -18,12 +18,14 @@ if Hitung_luas_segitiga:
     luas_segitiga= 1/2 * panjang * lebar
     st.success(f'Hasil luas segitiga adalah:{luas_segitiga}cm²')
 
-st.write('# i like sego goreng and mango')
+st.write('# i like noodles')
 st.write('what 9+10')
 one= st.button('21')
 nine= st.button('19')
 
 if one:
-    st.success(':0 its false but ur cool!')
+    st.success('yes :0')
 if nine:
-    st.success(":3 its True!")
+    st.success("no >:3")
+
+st.write('>created by Gis')
