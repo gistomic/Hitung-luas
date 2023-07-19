@@ -24,6 +24,6 @@ one= st.button('21')
 nine= st.button('19')
 
 if one:
-    st.success(':0')
+    st.success(':0 its false but ur cool!')
 if nine:
-    st.success(":3")
+    st.success(":3 its True!")
