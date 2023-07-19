@@ -24,6 +24,6 @@ one= st.button('21')
 nine= st.button('19')
 
 if one:
-    st.success(':0')
+    st.write(':0')
 if nine:
-    st.success(":3")
+    st.write(":3")
