@@ -2,11 +2,11 @@ import streamlit as st
 st.write('# Menghitung luas hehew')
 st.write('by minum')
 
-panjang= st.number_input('Masukan luasnya', 0)
+panjang= st.number_input('Masukan Panjangnya', 0)
 lebar= st.number_input('Masukan Lebarnya', 0)
 Hitung_persegi= st.button('Hasil luas persegi')
-Hitung_keliling_persegi= st.button('hasil keliling pesegi')
-Hitung_luas_segitiga= st.button('hasil luas segitiga')
+Hitung_keliling_persegi= st.button('Hasil keliling pesegi')
+Hitung_luas_segitiga= st.button('Hasil luas segitiga')
 
 if Hitung_persegi:
     luas_persegi = panjang * lebar
