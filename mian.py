@@ -1,5 +1,5 @@
 import streamlit as st
-st.write('# Menghitung luas hehew')
+st.write('# Menghitung luas :p')
 st.write('by minum')
 
 panjang= st.number_input('Masukan Panjangnya', 0)
